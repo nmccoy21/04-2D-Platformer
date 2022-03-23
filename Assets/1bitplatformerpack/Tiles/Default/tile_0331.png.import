@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile_0331.png-0b1856a11508434ee4d4929d5bcd9108.stex"
+path="res://.import/tile_0331.png-5bfdddb4c90c9b6441d8ad86e1d76dbc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Custom/1bitplatformerpack/Tiles/Default/tile_0331.png"
-dest_files=[ "res://.import/tile_0331.png-0b1856a11508434ee4d4929d5bcd9108.stex" ]
+source_file="res://Assets/1bitplatformerpack/Tiles/Default/tile_0331.png"
+dest_files=[ "res://.import/tile_0331.png-5bfdddb4c90c9b6441d8ad86e1d76dbc.stex" ]
 
 [params]
 
