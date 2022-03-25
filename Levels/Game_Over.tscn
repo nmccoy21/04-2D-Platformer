@@ -30,10 +30,13 @@ color = Color( 0.203922, 0.227451, 0.25098, 1 )
 margin_right = 1024.0
 margin_bottom = 246.0
 custom_fonts/font = SubResource( 1 )
-text = "Congratulations! 
-You win!"
+text = "Congratulations! You win!
+Thank you for playing!"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Play_Again" type="Button" parent="."]
 margin_left = 412.0
@@ -57,5 +60,6 @@ focus_neighbour_top = NodePath("../Play_Again")
 focus_previous = NodePath("../Play_Again")
 custom_fonts/font = SubResource( 2 )
 text = "Quit"
+
 [connection signal="pressed" from="Play_Again" to="." method="_on_Play_Again_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

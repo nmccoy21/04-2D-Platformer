@@ -3,7 +3,7 @@ extends Area2D
 var Explosion = load("res://Explosion/Explosion.tscn")
 onready var Explosions = get_node_or_null("/root/Game/Explosions")
 
-var damage = 10
+var damage = 5
 
 func _on_Mine_body_entered(body):
 	if body.name == "Player":
@@ -13,5 +13,5 @@ func _on_Mine_body_entered(body):
 			Explosions.add_child(explosion)
 			explosion.playing = true
 		Global.update_health(-damage)
-		Global.update_score(damage)
+		Global.update_score(-damage)
 		queue_free()

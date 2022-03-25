@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://Assets/1bitplatformerpack/Tiles/Default/tile_0102.png" type="Texture" id=1]
 [ext_resource path="res://Player/Player_Container.gd" type="Script" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Levels/Spawn.gd" type="Script" id=7]
 [ext_resource path="res://Assets/1bitplatformerpack/Tilemap/monochrome_tilemap_packed.png" type="Texture" id=8]
 [ext_resource path="res://Coin/Coin.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Assets/1bitplatformerpack/Tilemap/monochrome_tilemap_transparent_packed.png" type="Texture" id=10]
 
 [sub_resource type="TileSet" id=17]
 0/name = "monochrome_tilemap_packed.png 0"
@@ -791,6 +792,132 @@ points = PoolVector2Array( 0.418571, 0.808197, 15.9231, 0.485184, 11.2394, 7.429
 9/shape_one_way_margin = 0.0
 9/shapes = [  ]
 9/z_index = 0
+10/name = "monochrome_tilemap_transparent_packed.png 10"
+10/texture = ExtResource( 10 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 240, 0, 16, 48 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
+10/shapes = [  ]
+10/z_index = 0
+11/name = "monochrome_tilemap_transparent_packed.png 11"
+11/texture = ExtResource( 10 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 224, 0, 16, 32 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape_one_way = false
+11/shape_one_way_margin = 0.0
+11/shapes = [  ]
+11/z_index = 0
+12/name = "monochrome_tilemap_transparent_packed.png 12"
+12/texture = ExtResource( 10 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 256, 0, 16, 16 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 0, 0 )
+12/navigation_offset = Vector2( 0, 0 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape_one_way = false
+12/shape_one_way_margin = 0.0
+12/shapes = [  ]
+12/z_index = 0
+13/name = "monochrome_tilemap_transparent_packed.png 13"
+13/texture = ExtResource( 10 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 272, 0, 16, 16 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 0, 0 )
+13/navigation_offset = Vector2( 0, 0 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape_one_way = false
+13/shape_one_way_margin = 0.0
+13/shapes = [  ]
+13/z_index = 0
+14/name = "monochrome_tilemap_transparent_packed.png 14"
+14/texture = ExtResource( 10 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 288, 0, 16, 16 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 0, 0 )
+14/navigation_offset = Vector2( 0, 0 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape_one_way = false
+14/shape_one_way_margin = 0.0
+14/shapes = [  ]
+14/z_index = 0
+15/name = "monochrome_tilemap_transparent_packed.png 15"
+15/texture = ExtResource( 10 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 256, 16, 16, 16 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 0, 0 )
+15/navigation_offset = Vector2( 0, 0 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape_one_way = false
+15/shape_one_way_margin = 0.0
+15/shapes = [  ]
+15/z_index = 0
+16/name = "monochrome_tilemap_transparent_packed.png 16"
+16/texture = ExtResource( 10 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 272, 16, 16, 16 )
+16/tile_mode = 0
+16/occluder_offset = Vector2( 0, 0 )
+16/navigation_offset = Vector2( 0, 0 )
+16/shape_offset = Vector2( 0, 0 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+16/shape_one_way = false
+16/shape_one_way_margin = 0.0
+16/shapes = [  ]
+16/z_index = 0
+17/name = "monochrome_tilemap_transparent_packed.png 17"
+17/texture = ExtResource( 10 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 288, 16, 16, 16 )
+17/tile_mode = 0
+17/occluder_offset = Vector2( 0, 0 )
+17/navigation_offset = Vector2( 0, 0 )
+17/shape_offset = Vector2( 0, 0 )
+17/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+17/shape_one_way = false
+17/shape_one_way_margin = 0.0
+17/shapes = [  ]
+17/z_index = 0
+18/name = "monochrome_tilemap_transparent_packed.png 18"
+18/texture = ExtResource( 10 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 304, 0, 16, 32 )
+18/tile_mode = 0
+18/occluder_offset = Vector2( 0, 0 )
+18/navigation_offset = Vector2( 0, 0 )
+18/shape_offset = Vector2( 0, 0 )
+18/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+18/shape_one_way = false
+18/shape_one_way_margin = 0.0
+18/shapes = [  ]
+18/z_index = 0
 
 [node name="Game" type="Node2D"]
 
@@ -840,7 +967,13 @@ limit_bottom = 600
 position = Vector2( 1871, 242 )
 
 [node name="Mine2" parent="Mines" instance=ExtResource( 3 )]
-position = Vector2( 3282, 496 )
+position = Vector2( 2628, 353 )
+
+[node name="Mine3" parent="Mines" instance=ExtResource( 3 )]
+position = Vector2( 3040, 497 )
+
+[node name="Mine4" parent="Mines" instance=ExtResource( 3 )]
+position = Vector2( 3423, 497 )
 
 [node name="Explosions" type="Node2D" parent="."]
 
@@ -848,6 +981,153 @@ position = Vector2( 3282, 496 )
 
 [node name="Coin" parent="Coins" instance=ExtResource( 9 )]
 position = Vector2( 633, 222 )
+
+[node name="Coin2" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 683, 222 )
+
+[node name="Coin3" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 788, 177 )
+
+[node name="Coin4" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 871, 177 )
+
+[node name="Coin5" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 935, 177 )
+
+[node name="Coin6" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1000, 177 )
+
+[node name="Coin7" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1100, 272 )
+
+[node name="Coin8" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1216, 383 )
+
+[node name="Coin9" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1301, 481 )
+
+[node name="Coin10" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1343, 481 )
+
+[node name="Coin11" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1407, 481 )
+
+[node name="Coin12" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1477, 413 )
+
+[node name="Coin13" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1556, 413 )
+
+[node name="Coin14" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1477, 353 )
+
+[node name="Coin15" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1489, 284 )
+
+[node name="Coin16" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1536, 242 )
+
+[node name="Coin17" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2121, 250 )
+
+[node name="Coin18" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2149, 222 )
+
+[node name="Coin19" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2176, 189 )
+
+[node name="Coin20" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2212, 165 )
+
+[node name="Coin21" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2248, 165 )
+
+[node name="Coin22" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2284, 165 )
+
+[node name="Coin23" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2319, 165 )
+
+[node name="Coin24" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2319, 130 )
+
+[node name="Coin25" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2284, 130 )
+
+[node name="Coin26" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2248, 130 )
+
+[node name="Coin27" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2212, 130 )
+
+[node name="Coin28" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2212, 96 )
+
+[node name="Coin29" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2248, 96 )
+
+[node name="Coin30" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2284, 96 )
+
+[node name="Coin31" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2319, 96 )
+
+[node name="Coin32" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2741, 383 )
+
+[node name="Coin35" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2773, 413 )
+
+[node name="Coin36" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2805, 413 )
+
+[node name="Coin37" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2805, 446 )
+
+[node name="Coin38" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2838, 446 )
+
+[node name="Coin39" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2838, 481 )
+
+[node name="Coin40" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2805, 481 )
+
+[node name="Coin41" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2872, 481 )
+
+[node name="Coin42" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2773, 481 )
+
+[node name="Coin43" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2773, 446 )
+
+[node name="Coin44" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2741, 413 )
+
+[node name="Coin45" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2741, 446 )
+
+[node name="Coin46" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2741, 481 )
+
+[node name="Coin47" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 3762, 641 )
+
+[node name="Coin48" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 3587, 527 )
+
+[node name="Coin49" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 3547, 527 )
+
+[node name="Coin50" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 3507, 527 )
+
+[node name="Coin33" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2773, 383 )
+
+[node name="Coin34" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 2805, 383 )
 
 [node name="Platform" type="TileMap" parent="."]
 tile_set = SubResource( 34 )
@@ -863,7 +1143,7 @@ collision_friction = 0.0
 collision_layer = 0
 collision_mask = 2147483648
 format = 1
-tile_data = PoolIntArray( 655416, 5, 0, 720946, 1, 0, 720950, 3, 0, 720955, 0, 0, 720957, 2, 0, 983145, 5, 0, 983169, 5, 0, 1048673, 1, 0, 1048678, 2, 0, 1048683, 3, 0, 1048686, 0, 0, 1048698, 1, 0, 1048700, 0, 0, 1048702, 2, 0, 1048708, 3, 0, 1114178, 0, 0, 1114180, 2, 0, 1114182, 1, 0, 1572938, 3, 0, 1572940, 0, 0, 1638495, 5, 0, 1704027, 3, 0, 1704028, 2, 0, 1704033, 3, 0, 1704035, 0, 0, 1900630, 5, 0, 1966162, 2, 0, 1966164, 1, 0, 1966167, 3, 0, 2293767, 4, 0, 2293793, 4, 0, 2424843, 6, 0, 2424854, 8, 0, 2424866, 6, 0, 2424872, 8, 0, 2687034, 4, 0, 2687058, 4, 0, 2687070, 4, 0, 2687091, 4, 0, 2687113, 4, 0, 2687132, 4, 0, 2818095, 6, 0, 2818096, 6, 0, 2818105, 8, 0, 2818110, 6, 0, 2818120, 8, 0, 2818128, 6, 0, 2818135, 8, 0, 2818150, 8, 0, 2818156, 6, 0, 2818170, 8, 0, 2818179, 6, 0, 2818191, 8, 0, 2818198, 6, 0, 2818201, 8, 0 )
+tile_data = PoolIntArray( 655416, 11, 0, 720945, 14, 0, 720946, 13, 0, 720947, 15, 0, 720950, 16, 0, 720953, 14, 0, 720955, 0, 0, 720957, 16, 0, 720958, 14, 0, 983145, 11, 0, 983169, 11, 0, 1048671, 14, 0, 1048672, 14, 0, 1048673, 13, 0, 1048674, 14, 0, 1048675, 14, 0, 1048676, 14, 0, 1048677, 14, 0, 1048678, 16, 0, 1048679, 14, 0, 1048680, 14, 0, 1048682, 14, 0, 1048683, 15, 0, 1048684, 14, 0, 1048686, 12, 0, 1048697, 14, 0, 1048698, 13, 0, 1048699, 14, 0, 1048700, 12, 0, 1048701, 14, 0, 1048702, 16, 0, 1048703, 14, 0, 1048704, 14, 0, 1048705, 14, 0, 1048706, 14, 0, 1048707, 14, 0, 1048708, 14, 0, 1048709, 14, 0, 1114178, 12, 0, 1114179, 14, 0, 1114180, 16, 0, 1114181, 14, 0, 1114182, 13, 0, 1179790, 18, 0, 1179791, 18, 0, 1179792, 18, 0, 1179795, 18, 0, 1179796, 18, 0, 1179797, 18, 0, 1245325, 18, 0, 1245329, 18, 0, 1245330, 18, 0, 1245334, 18, 0, 1310871, 18, 0, 1310872, 18, 0, 1441945, 18, 0, 1441946, 18, 0, 1572937, 14, 0, 1572938, 16, 0, 1572939, 14, 0, 1572940, 12, 0, 1573019, 18, 0, 1573020, 18, 0, 1638495, 11, 0, 1638557, 18, 0, 1638558, 18, 0, 1704026, 14, 0, 1704027, 15, 0, 1704028, 16, 0, 1704029, 14, 0, 1704030, 14, 0, 1704033, 15, 0, 1704035, 12, 0, 1704105, 18, 0, 1900630, 11, 0, 1966162, 16, 0, 1966164, 13, 0, 1966165, 14, 0, 1966167, 15, 0, 1966168, 14, 0, 1966169, 14, 0, 2162860, 18, 0, 2162861, 18, 0, 2162862, 18, 0, 2162865, 18, 0, 2162866, 18, 0, 2162867, 18, 0, 2162868, 18, 0, 2162869, 18, 0, 2162871, 18, 0, 2162872, 18, 0, 2162874, 18, 0, 2228395, 18, 0, 2228399, 18, 0, 2228400, 18, 0, 2228406, 18, 0, 2228409, 18, 0, 2228411, 18, 0, 2228413, 18, 0, 2228414, 18, 0, 2228416, 18, 0, 2228418, 18, 0, 2228420, 18, 0, 2228421, 18, 0, 2228423, 18, 0, 2228424, 18, 0, 2228426, 18, 0, 2228427, 18, 0, 2228430, 18, 0, 2228432, 18, 0, 2228433, 18, 0, 2228434, 18, 0, 2228436, 18, 0, 2293767, 4, 0, 2293793, 4, 0, 2293948, 18, 0, 2293951, 18, 0, 2293953, 18, 0, 2293955, 18, 0, 2293958, 18, 0, 2293961, 18, 0, 2293964, 18, 0, 2293965, 18, 0, 2293967, 18, 0, 2293971, 18, 0, 2293973, 18, 0, 2293974, 18, 0, 2293976, 18, 0, 2293977, 18, 0, 2293978, 18, 0, 2293980, 18, 0, 2293982, 18, 0, 2293983, 18, 0, 2293987, 18, 0, 2293988, 18, 0, 2359511, 18, 0, 2359515, 18, 0, 2359517, 18, 0, 2359520, 18, 0, 2359521, 18, 0, 2359522, 18, 0, 2359525, 18, 0, 2359526, 18, 0, 2424843, 6, 0, 2424854, 8, 0, 2424866, 6, 0, 2424872, 8, 0, 2687034, 4, 0, 2687058, 4, 0, 2687070, 4, 0, 2687091, 4, 0, 2687113, 4, 0, 2687132, 4, 0, 2818095, 6, 0, 2818096, 6, 0, 2818105, 8, 0, 2818110, 6, 0, 2818120, 8, 0, 2818128, 6, 0, 2818135, 8, 0, 2818150, 8, 0, 2818156, 6, 0, 2818170, 8, 0, 2818179, 6, 0, 2818191, 8, 0, 2818198, 6, 0, 2818201, 8, 0 )
 
 [node name="Camera" parent="." instance=ExtResource( 5 )]
 process_mode = 0
@@ -882,6 +1162,9 @@ __meta__ = {
 margin_right = 1024.0
 margin_bottom = 30.0
 color = Color( 0, 0, 0, 0.501961 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Score" type="Label" parent="UI/HUD"]
 margin_left = 10.0
