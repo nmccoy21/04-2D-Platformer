@@ -56,7 +56,7 @@ func execute_fade_in():
 			fade_in = false
 
 
-func execute_fade_out(target):
+func execute_fade_out(_target):
 	if fade != null:
 		fade.color.a += fade_speed
 		if fade.color.a >= 1:
@@ -115,7 +115,6 @@ func save_game():
 	save_file.save(SAVE_PATH)
 
 func load_game():
-	print("I got here")
 	var error = save_file.load(SAVE_PATH)					# load the keys out of the config file
 	if error != OK:								# if there's a problem reading the file, print an error
 		print("Failed loading file")

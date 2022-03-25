@@ -9,7 +9,7 @@ func _ready():
 	modulate.s = 0.25
 	
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	modulate.h = wrapf(modulate.h + color_speed,0,1)
 	modulate.v = modulate.v + value_speed
 	if (modulate.v <= value_limit[0] and value_speed < 0) or (modulate.v >= value_limit[1] and value_speed > 0):
