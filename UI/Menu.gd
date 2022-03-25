@@ -1,5 +1,8 @@
 extends Control
 
+func _ready():
+	Global.new_level()
+
 func _unhandled_input(event):
 	if event.is_action_pressed("menu"):
 		if visible:
@@ -13,6 +16,7 @@ func _on_Save_pressed():
 	Global.save_game()
 
 func _on_Load_pressed():
+	print("I got this far in MENU")
 	Global.load_game()
 
 func _on_Quit_pressed():

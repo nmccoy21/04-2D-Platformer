@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=2]
+[gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://Assets/1bitplatformerpack/Tiles/Default/tile_0370.png" type="Texture" id=1]
 [ext_resource path="res://Player/Player_Container.gd" type="Script" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Assets/1bitplatformerpack/Tilemap/monochrome_tilemap_packed.png" type="Texture" id=7]
 [ext_resource path="res://UI/Menu.gd" type="Script" id=8]
 [ext_resource path="res://Mine/Mine.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Coin/Coin.tscn" type="PackedScene" id=10]
 
 [sub_resource type="TileSet" id=1]
 0/name = "monochrome_tilemap_packed.png 0"
@@ -1087,12 +1088,19 @@ limit_left = 0
 limit_right = 3760
 limit_bottom = 600
 
-[node name="Enemy_Container" type="Node2D" parent="."]
+[node name="Explosions" type="Node2D" parent="."]
 
-[node name="Mine" parent="Enemy_Container" instance=ExtResource( 9 )]
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="Coin" parent="Coins" instance=ExtResource( 10 )]
+position = Vector2( 523, 240 )
+
+[node name="Mines" type="Node2D" parent="."]
+
+[node name="Mine" parent="Mines" instance=ExtResource( 9 )]
 position = Vector2( 1436, 290 )
 
-[node name="Mine2" parent="Enemy_Container" instance=ExtResource( 9 )]
+[node name="Mine2" parent="Mines" instance=ExtResource( 9 )]
 position = Vector2( 3438, 549 )
 
 [node name="Platform" type="TileMap" parent="."]
@@ -1131,6 +1139,9 @@ margin_right = 512.0
 margin_bottom = 30.0
 text = "Score:"
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Health" type="Label" parent="UI/HUD"]
 margin_left = 512.0
@@ -1152,7 +1163,7 @@ __meta__ = {
 [node name="Background" type="ColorRect" parent="UI/Menu"]
 margin_right = 1024.0
 margin_bottom = 600.0
-color = Color( 0, 0, 0, 0.501961 )
+color = Color( 1, 0, 0, 1 )
 
 [node name="Save" type="Button" parent="UI/Menu"]
 margin_left = 412.0

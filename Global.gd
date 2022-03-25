@@ -6,13 +6,14 @@ var save_file = ConfigFile.new()
 onready var HUD = get_node_or_null("/root/Game/UI/HUD")
 onready var Coins = get_node_or_null("/root/Game/Coins")
 onready var Mines = get_node_or_null("/root/Game/Mines")
-onready var Game = load("res://Game.tscn")
+onready var Game = load("res://Levels/Level1.tscn")
 onready var Coin = load("res://Coin/Coin.tscn")
 onready var Mine = load("res://Mine/Mine.tscn")
 
 var save_data = {
 	"general": {
-		"score":0
+		"level": "res://Levels/Level1.tscn"
+		,"score":0
 		,"health":100
 		,"coins":[]
 		,"mines":[]	
@@ -53,6 +54,7 @@ func execute_fade_in():
 		fade.color.a -= fade_speed
 		if fade.color.a <= 0:
 			fade_in = false
+
 
 func execute_fade_out(target):
 	if fade != null:
@@ -113,6 +115,7 @@ func save_game():
 	save_file.save(SAVE_PATH)
 
 func load_game():
+	print("I got here")
 	var error = save_file.load(SAVE_PATH)					# load the keys out of the config file
 	if error != OK:								# if there's a problem reading the file, print an error
 		print("Failed loading file")
@@ -123,5 +126,12 @@ func load_game():
 	for section in save_data.keys():
 		for key in save_data[section]:					# go through everything in the config file and add it to the lists
 			save_data[section][key] = save_file.get_value(section, key, null)
-	var _scene = get_tree().change_scene_to(Game)				# reset the scene
+	var _scene = get_tree().change_scene(save_data["general"]["level"])				# reset the scene
 	call_deferred("restart_level")						# when the scene has been loaded, call the reset_level method
+
+func new_level():
+	HUD = get_node_or_null("/root/Game/UI/HUD")
+	Coins = get_node_or_null("/root/Game/Coins")
+	Mines = get_node_or_null("/root/Game/Mines")
+	update_health(0)
+	update_score(0)
